@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoSaviours</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">🌿EcoSaviours</div>
+    <a href="#baixar" class="btn-jogar">Jogue Agora</a>
+  </header>
+
+  <section class="hero">
+    <h1>Explore, Cuide, Salve a Natureza!</h1>
+    <p>Mergulhe em uma aventura ecológica onde cada decisão impacta o planeta.</p>
+    <div class="hero-buttons">
+      <button onclick="verTrailer()">Ver Trailer</button>
+      <button onclick="location.href='#baixar'">Baixar Agora</button>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre o Jogo</h2>
+    <p>EcoSaviours é um jogo educativo e interativo sobre biodiversidade, reciclagem e preservação ambiental.</p>
+  </section>
+
+  <section id="personagens">
+    <h2>Personagens</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Lia</h3>
+        <p>Guardiã da Floresta</p>
+      </div>
+      <div class="card">
+        <h3>Tico</h3>
+        <p>Beija-flor Cientista</p>
+      </div>
+      <div class="card">
+        <h3>Zeca</h3>
+        <p>Bicho-preguiça Viajante</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <p>Imagens do jogo em diferentes biomas e missões.</p>
+  </section>
+
+  <section id="baixar">
+    <h2>Baixar o Jogo</h2>
+    <button>Windows</button>
+    <button>Android</button>
+    <button>iOS</button>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form onsubmit="enviarFormulario(event)">
+      <input type="text" placeholder="Nome" required />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 EcoSaviours. Todos os direitos reservado
